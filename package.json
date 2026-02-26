@@ -1,0 +1,21 @@
+{
+  "name": "string-tools-lite-js",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "keywords": [
+    "string",
+    "tools",
+    "utils",
+    "javascript"
+  ],
+  "author": "Stanislav Petrenko",
+  "license": "ISC",
+  "description": "Tiny library with string manipulation functions for JavaScript."
+}
