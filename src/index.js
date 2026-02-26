@@ -1,6 +1,14 @@
 export function capitalize(str = '') {
   if (!str) return '';
-  return str.charAt(0).toUpperCase() + str.slice(1);
+
+  const strArr = str.split(' ');
+
+  return strArr
+    .map(
+      (word) =>
+        word.charAt(0).toUpperCase() + word.slice(1).toLocaleLowerCase(),
+    )
+    .join(' ');
 }
 
 export function slugify(str = '') {
