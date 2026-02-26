@@ -3,6 +3,8 @@ export function capitalize(str = '') {
 
   const strArr = str.split(' ');
 
+  console.log(strArr);
+
   return strArr
     .map(
       (word) =>
